@@ -89,7 +89,7 @@ interface ForecastResponse {
 }
 
 const server = new McpServer({
-  name: "hello-world-mcp-server",
+  name: "weather-mcp-server",
   version: "0.2.0",
 });
 

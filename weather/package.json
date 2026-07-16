@@ -1,11 +1,11 @@
 {
-  "name": "hello-world-mcp-server",
+  "name": "weather-mcp-server",
   "version": "0.2.0",
   "description": "Example MCP server with real weather API integration (Open-Meteo)",
   "type": "module",
   "main": "build/index.js",
   "bin": {
-    "hello-world-mcp-server": "build/index.js"
+    "weather-mcp-server": "build/index.js"
   },
   "scripts": {
     "build": "tsc && chmod +x build/index.js",
