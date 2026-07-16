@@ -1,0 +1,26 @@
+{
+  "name": "hello-world-mcp-server",
+  "version": "0.2.0",
+  "description": "Example MCP server with real weather API integration (Open-Meteo)",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "hello-world-mcp-server": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
